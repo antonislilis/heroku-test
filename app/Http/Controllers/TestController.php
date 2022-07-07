@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class TestController extends Controller
 {
     public function index() {
+        var_dump('tewstrtttt');
         var_dump(User::all());
     }
 }
